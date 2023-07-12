@@ -1,166 +1,196 @@
-body{
+/* Unnecessary margin of the whole body removed */
+body {
     margin: 0;
-
 }
-.banner-container{
+
+/* Banner styling */
+.banner-container {
     width: 100%;
     height: 600px;
     margin-bottom: 100px;
 }
-.banner-image{
+
+.banner-image {
     background-image: url(images/banner/banner1.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
-.banner-info{
+
+.banner-info {
     display: flex;
     flex-direction: row-reverse;
 }
-.banner-info-position{
+
+.banner-info-position {
     width: 525px;
     margin-right: 100px;
     margin-top: 10%;
 }
-.banner-info-position h1{
+
+.banner-info-position h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
 }
-.banner-info-position p{
+
+.banner-info-position p {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    color:rgb(117, 111, 111);
+    color: rgb(117, 111, 111);
     font-weight: 400;
 }
-.banner-info-position button{
+
+.banner-info-position button {
     border: none;
     border-radius: 5px;
     background-color: #F15B22;
-    padding:15px 25px;
+    padding: 15px 25px;
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-size: 17px;
 }
-.failure-section{
+
+.failure-section {
     width: 80%;
     margin: auto;
     display: flex;
     margin-bottom: 100px;
 }
-.person-image { 
+
+.person-image {
     background-color: #F15B22;
     height: auto;
-    width: 50%; 
+    width: 50%;
     border-radius: 50%;
     padding: 2.5px;
     bottom: 200px;
-  }
-  
-  .person-image img {
+}
+
+.person-image img {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-.failure-list{
+}
+
+.failure-list {
     margin-left: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.failure-list h1{
+
+.failure-list h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
 }
-.failure-list p{
+
+.failure-list p {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    color:rgb(117, 111, 111);
+    color: rgb(117, 111, 111);
     font-weight: lighter;
 }
-.failure-list ul{
+
+.failure-list ul {
     list-style: url('images/icons/check-mark-tick-vector-graphic-21.png');
     font-family: 'Work Sans', sans-serif;
     color: darkgray;
     font-weight: 400;
 }
-.plans-container{
+
+.plans-container {
     width: 80%;
     margin: auto;
 }
-.plans-container h1{
+
+.plans-container h1 {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
 }
-.plan-list{
+
+.plan-list {
     display: flex;
     gap: 40px;
     margin-bottom: 100px;
     justify-content: center;
 }
-.plans{
+
+.plans {
     text-align: center;
     width: 250px;
     height: 250px;
     font-family: 'Work Sans', sans-serif;
 }
-.plans h3{
+
+.plans h3 {
     font-size: 25px;
 }
-.plans p{
+
+.plans p {
     font-weight: 400;
     color: darkgray;
     font-size: 20px;
 }
-.pricing-section{
+
+.pricing-section {
     width: 80%;
     margin: auto;
     margin-bottom: 100px;
 }
-.pricing-section h1{
+
+.pricing-section h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     text-align: center;
 }
-.price-list{
+
+.price-list {
     display: flex;
     gap: 10px;
 }
-.prices{
+
+.prices {
     text-align: center;
     background-color: rgb(244, 241, 241);
     padding: 10px;
     border-radius: 10px;
 }
-.prices p{
+
+.prices p {
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
 }
-.prices h1{
+
+.prices h1 {
     color: #F15B22;
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     margin-bottom: 40px;
 }
-span{
+
+span {
     color: gray;
     font-size: 15px;
     font-weight: 400;
 }
-.prices ul{
+
+.prices ul {
     list-style: url(images/icons/check-mark-tick-vector-graphic-21.png);
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
     color: gray;
 }
-.prices ul li{
+
+.prices ul li {
     margin-bottom: 15px;
 }
-del{
+
+del {
     color: lightgray;
 }
-.prices button{
+
+.prices button {
     background-color: #F15B22;
     color: white;
     padding: 15px 25px;
@@ -170,7 +200,8 @@ del{
     font-size: 20px;
     font-weight: bold;
 }
-.calling-section{
+
+.calling-section {
     width: 80%;
     margin: auto;
     background: linear-gradient(to right, rgba(255, 106, 0, 0.5), rgba(255, 196, 0, 0.174)), url(images/watch.png);
@@ -180,19 +211,22 @@ del{
     height: 100%;
     margin-bottom: 100px;
 }
-.calling-btn{
+
+.calling-btn {
     width: 600px;
     margin-left: 50px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.calling-btn h1{
+
+.calling-btn h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
     color: white;
 }
-.calling-btn button{
+
+.calling-btn button {
     background-color: #F15B22;
     color: white;
     padding: 15px 25px;
@@ -202,45 +236,54 @@ del{
     border-radius: 5px;
     border: none;
 }
-footer{
+
+footer {
     display: flex;
     background-color: black;
     color: white;
 }
-.contact-info{
+
+.contact-info {
     width: 460px;
     padding: 80px 150px;
 }
-.contact-info h1{
+
+.contact-info h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     font-weight: bold;
 }
-.contact-info p{
+
+.contact-info p {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
-.contact-info a{
+
+.contact-info a {
     padding-right: 20px;
 }
-.subscribe-mail{
+
+.subscribe-mail {
     width: 300px;
     padding-top: 100px;
     padding-left: 150px;
 }
-.subscribe-mail h2{
+
+.subscribe-mail h2 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
-.subscribe-mail input{
+
+.subscribe-mail input {
     padding: 15px 35px;
     border-radius: 5px;
     color: grey;
     margin-bottom: 20px;
 }
-.subscribe-mail button{
+
+.subscribe-mail button {
     background-color: #F15B22;
     color: white;
     font-family: 'Work Sans', sans-serif;
